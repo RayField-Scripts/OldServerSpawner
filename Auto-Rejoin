@@ -158,7 +158,7 @@ button.MouseButton1Click:Connect(function()
 			countdown.TextScaled = true
 			countdown.ZIndex = 999999
 
-			local totalTime = 30
+			local totalTime = 120
 			while totalTime >= 0 do
 				countdown.Text = string.format("Rejoin in %02d:%02d", math.floor(totalTime / 60), totalTime % 60)
 				task.wait(1)
