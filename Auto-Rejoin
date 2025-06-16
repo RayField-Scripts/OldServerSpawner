@@ -147,7 +147,7 @@ button.MouseButton1Click:Connect(function()
 			end
 
 			percent.Visible = false
-			msg.Text = "🕒 PLEASE WAIT 30 SECONDS TO AUTO-REJOIN"
+			msg.Text = "🕒 PLEASE WAIT 5 MINUTES TO AUTO-REJOIN"
 
 			local countdown = Instance.new("TextLabel", frame)
 			countdown.Size = UDim2.new(1, 0, 0, 40)
